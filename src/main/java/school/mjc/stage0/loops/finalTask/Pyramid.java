@@ -9,3 +9,9 @@ public class Pyramid {
         new Pyramid().printPyramid(7);
     }
 }
+//      123456789
+//          1     1
+//         212    2
+//        32123   3
+//       4321234  4
+//      543212345 5
