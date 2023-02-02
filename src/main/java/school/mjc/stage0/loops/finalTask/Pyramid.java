@@ -13,20 +13,20 @@ public class Pyramid {
             }
             String bottom = part1 + "1" + part2;
             res2 = bottom;
-            System.out.println(res2);
 
             for (int i = 0; i < cathetusLength - 1; i++) {
                 bottom = bottom.replace("" + (cathetusLength - i), " ");
                 bottom = bottom.stripTrailing();
 
                 res2 = bottom + "\n" + res2;
-                System.out.println(res2);
+
             }
+            System.out.println(res2);
         }
     }
 
     public static void main(String[] args) {
-        new Pyramid().printPyramid(0);
+        new Pyramid().printPyramid(9);
     }
 }
 //      123456789
