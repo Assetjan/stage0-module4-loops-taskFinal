@@ -2,6 +2,7 @@ package school.mjc.stage0.loops.finalTask;
 
 public class Pyramid {
     public void printPyramid(int cathetusLength) {
+
         String res = "1";
         int h = 2;
         for (int i = cathetusLength; i > 0; i--){
